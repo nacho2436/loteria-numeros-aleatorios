@@ -1,3 +1,19 @@
+
+
+var z = aleatorio (0, 9);
+document.write(z);
+
+
+var z = aleatorio (0, 9);
+document.write(z);
+var z = aleatorio (0, 9);
+document.write(z);
+
+var z = aleatorio (0, 9);
+document.write(z);
+
+
+
 function aleatorio (min, max)
 {
   var resultado;
