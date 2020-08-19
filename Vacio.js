@@ -1,14 +1,19 @@
 
 
 var z;
-
+var b;
+var c;
+var d;
 
 for (var i=0; i<4; i++)
 {
 
  z = aleatorio (0, 9);
-document.write(z)
+ b = aleatorio (0, 9);
+ c = aleatorio (0, 9);
+ d = aleatorio (0, 9);
 
+document.write(z,b,c,d + " -");
 
 }
 
