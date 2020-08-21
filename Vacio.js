@@ -15,7 +15,7 @@ for (var i=0; i<5; i++)
  d = aleatorio (0, 9);
  
 
-document.write(z,b,c,d,  + " -");
+document.write(z,b,c,d  + " -");
 
 }
 
