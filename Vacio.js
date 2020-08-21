@@ -4,7 +4,7 @@ var z;
 var b;
 var c;
 var d;
-var e;
+
 
 for (var i=0; i<5; i++)
 {
@@ -13,9 +13,9 @@ for (var i=0; i<5; i++)
  b = aleatorio (0, 9);
  c = aleatorio (0, 9);
  d = aleatorio (0, 9);
- e = aleatorio (0, 9);
+ 
 
-document.write(z,b,c,d,e  + " -");
+document.write(z,b,c,d,  + " -");
 
 }
 
