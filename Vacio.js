@@ -4,16 +4,18 @@ var z;
 var b;
 var c;
 var d;
+var e;
 
-for (var i=0; i<4; i++)
+for (var i=0; i<5; i++)
 {
 
  z = aleatorio (0, 9);
  b = aleatorio (0, 9);
  c = aleatorio (0, 9);
  d = aleatorio (0, 9);
+ e = aleatorio (0, 9);
 
-document.write(z,b,c,d + " -");
+document.write(z,b,c,d,e  + " -");
 
 }
 
@@ -24,4 +26,3 @@ function aleatorio (min, max)
   resultado = Math.floor(Math.random() *(max- min + 1)) + min;
   return resultado;
 }
-
