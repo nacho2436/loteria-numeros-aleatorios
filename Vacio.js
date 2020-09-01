@@ -9,15 +9,26 @@ var d;
 for (var i=0; i<5; i++)
 {
 
- z = aleatorio (0, 9);
- b = aleatorio (0, 9);
- c = aleatorio (0, 9);
- d = aleatorio (0, 9);
+ z = aleatorio (1, 43);
+ b = aleatorio (1, 16);
  
 
-document.write(z,b,c,d  + " -");
+document.write(z + "\n -");
 
 }
+
+for (var i=0; i<1; i++)
+{
+
+ 
+ b = aleatorio (1, 16);
+ 
+
+document.write(" <br> la super balota " + b);
+
+}
+
+
 
 
 function aleatorio (min, max)
